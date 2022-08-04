@@ -1,0 +1,54 @@
+.table tbody tr:nth-child(2n) {
+    background-color: transparent;
+}
+
+.table {
+    overflow-x: auto;
+}
+
+.limited-height {
+    overflow: auto;
+    max-height: 400px;
+}
+
+.rf {
+    text-align: right !important;
+}
+
+.chart-card .apexcharts-svg {
+    border-radius: 0 0 var(--border-radius-lg, 0.5rem) var(--border-radius-lg, 0.5rem);
+}
+
+.max-w-0 {
+    max-width: 0;
+}
+
+.min-w-48 {
+    min-width: 48px;
+}
+
+.geo-table {
+    display: none;
+}
+
+.geo-card--use-table-view .geo-map {
+    display: none;
+}
+
+.geo-card--use-table-view .geo-table {
+    display: inline-block;
+}
+
+:root {
+    --color-neutral-000: white;
+    --color-neutral-50: #F8FAFC;
+    --color-neutral-100: #F1F5F9;
+    --color-neutral-200: #E2E8F0;
+    --color-neutral-300: #CBD5E1;
+    --color-neutral-400: #94A3B8;
+    --color-neutral-500: #64748B;
+    --color-neutral-600: #475569;
+    --color-neutral-700: #334155;
+    --color-neutral-800: #1E293B;
+    --color-neutral-900: #0F172A;
+}
